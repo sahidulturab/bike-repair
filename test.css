@@ -1,0 +1,45 @@
+body {
+    width: 100px;
+}
+
+
+.container {
+
+height: 400px;
+background-color: violet;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+ header {
+    background-color: green;
+     width: 1024px;
+     /* display: flex;  */
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+   
+
+} 
+.logo {
+
+    min-height: 100px;
+    
+    
+}
+nav a {
+    /* background-color: white; */
+    color: white;
+    background-size: 50px;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color:white;
+    padding : 10px 20px;
+    font-family: Helvetica, sans-serif;
+    
+}

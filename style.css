@@ -1,0 +1,212 @@
+html {
+    background-image:linear-gradient(#0093E9,#80D0C7);
+}
+
+body {
+    /* background-color:#FC5E55;  */
+    background-image: url(images/image-lion-background.png);
+    background-position:top center;
+    background-repeat: no-repeat;
+  
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+width: 1024px;
+/* background-color:#FC5E55; */
+min-height: 300px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+header {
+    /* background-color: rgb(233, 154, 154); */
+    /* min-height: 100px; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+main {
+
+    /* background-color: rgb(56, 160, 197); */
+    min-height: 300px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    /* align-items: flex-end; */
+}
+
+.cards {
+    /* background-color: rgb(33, 36, 31); */
+    /* min-height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card1 {
+    /* background-color: rgb(170, 119, 162); */
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card1-b.jpg);
+    background-size:cover ;
+    background-position: bottom;
+}
+.card2 {
+    /* background-color: rgb(190, 220, 170); */
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card2-b.jpg);
+    background-size:cover ;
+    background-position: bottom;
+   
+
+}
+.card3 {
+    /* background-color: rgb(189, 139, 218); */
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card3-b.jpg);
+    background-size:cover ;
+    background-position: bottom;
+    
+
+}
+.herobox1 {
+    /* width: 70%; */
+    flex: 2;
+    /* background-color: cornflowerblue; */
+    padding-right: 10px;
+}
+.herobox2 {
+    /* width: 30%; */
+    flex: 1;
+    /* background-color:mintcream; */
+   
+}
+.logo {
+    /* background-color: olive; */
+    height: 100px;
+    
+}
+h1 {
+    font-size: 60px;
+    font-family:'Playfair Display', serif; ;
+    color: black;
+    margin-bottom: 10px;
+}
+p {
+    line-height: 1.5rem;
+   /* line-height: 0.0062px; */
+   margin-bottom: 2px;
+   /* padding-top: 10px; */
+}
+h2 {
+    font-family:'Playfair Display', serif; ;
+    font-size: 30px;
+    margin: 10px 20px 10px 20px;
+    /* padding-top: 10px; */
+
+}
+.cards p {
+    line-height: 20px;
+    margin: 10px 20px 10px 20px;
+    font-size:10px ;
+}
+i {
+    font-size: 40px;
+    padding-top: 20px;
+}
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+.card1,.card2,.card3 {
+     box-sizing: border-box;
+    padding : 40px 30px 20px 30px ;
+    border-radius: 20px;
+} 
+.booklink {
+    background-color: rgba(255, 255, 255, 0.857);
+    background-size: 20px ;
+    color: orange;
+    padding :15px 25px;
+    font-family:'Playfair Display', serif; ;
+    box-shadow:1px 1px 5px 1px;
+
+    
+    color: black;
+}
+.booklink:hover {
+    background-color: teal;
+    transition-duration: 1s;
+}
+
+a.booklink {
+    display:inline-block;
+    margin-top: 20px;
+    border-radius: 20px 0px 20px 0px;
+}
+.herobox2 img {
+    border-radius: 20px 10px;
+
+}
+navbutton a {
+    color:black;
+    margin-left: 20px;
+    display: inline-block;
+    background-color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 10px;
+    box-shadow: teal;
+    box-shadow: 1px 1px 2px 1px;
+    display: inline-block;
+}
+
+.testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.textbox {
+    border : 1px solid white;
+    width: 47%;
+    padding : 50px;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+     
+}
+.nav:hover {
+    background-color: teal;
+    transition-duration: 1s;
+}
+.navbutton {
+    display: inline-block;
+    border-radius: 0px 10px;
+    box-shadow: teal;
+    box-shadow: 1px 1px 2px 1px;
+    padding: 20px 10px;
+    position: relative;
+}
+.dropdownbox {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+.navbutton:hover .dropdownbox {
+    display: block;
+}

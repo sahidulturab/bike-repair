@@ -1,0 +1,25 @@
+.container {
+
+    width: 1024px;
+    background-color: green;
+    min-height: 300px;
+/* minheight means atleast height eta.kintu p tag e word er upor base kore word behsi hoile box er height o increase kore dibe */
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+.box1 {
+    background-color: darkgreen;
+    height: 100px;
+}
+.box2 {
+    background-color:lightgreen;
+    height: 300px;
+}
+.box3 {
+    background-color:green;
+    height: 250px;
+}
